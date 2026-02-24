@@ -49,7 +49,7 @@ public class ConcurrentClient {
         latch.await();
         pool.shutdownNow();
 
-        System.out.printf("Done: requests=%d, concurrency=%d, success=%d, failed=%d",
+        System.out.printf("Done: requests=%d, created_tickets=%d, failed_tickets=%d",
                 requests, concurrency, success.get(), failed.get());
     }
 }
