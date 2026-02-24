@@ -44,7 +44,6 @@ public class ConcurrentClient {
                 }
             });
         }
-
     
         latch.await();
         pool.shutdownNow();
