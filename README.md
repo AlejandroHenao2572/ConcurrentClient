@@ -51,7 +51,8 @@ public class ConcurrentClient {
 ```
 - Hace las llamadas al servidor(debe estar corriendo previmente)
 - Crea un pool de hilos 20 para hacer llamados al api de forma concurrente
-- Se hacen 100 petiiciones al api para crear nuevos tickets
+- Se hacen 100 peticiones al api para crear nuevos tickets
+- Se muestra un reporte de las peticiones hechas
 
 ## Ejecucion:
 ![alt text](ejecuccion.png)
